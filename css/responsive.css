@@ -1,0 +1,202 @@
+/*
+|----------------------------------------------------------------------------
+	primary color: #f5b904	rgba(245, 185, 4, 0.99)
+	secondary color: #0347ab rgba(3, 71, 171, 0.8)
+|----------------------------------------------------------------------------
+*/
+
+@media screen and (max-width: 1199px) {
+    .navbar .nav-item .nav-link {
+        margin-left: 30px;
+    }
+    .banner-content {
+        max-width: 500px;
+        margin-top: 55px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-toggler {
+        margin-bottom: 30px;
+        z-index: 999;
+    }
+    .navbar-toggler i.active::before {
+        content: "\f00d";
+        color: red;
+        border: none;
+    }
+    .navbar-nav {
+        position: fixed;
+        left: -100%;
+        top: 0;
+        background: #111;
+        width: 100%;
+        height: 100vh;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+    .navbar-nav.active {
+        left: 0;
+    }
+    .navbar .nav-item .nav-link {
+        align-items: left;
+        justify-content: left;
+        display: block;
+        line-height: 20px;
+        text-transform: capitalize;
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff!important;
+        transition: 0.15s;
+        position: relative;
+        margin: 20px 0 0;
+        margin-left: 40px;
+    }
+    .navbar .nav-item .nav-link::before {
+        align-items: left;
+        justify-content: left;
+        content: '';
+        position: absolute;
+        left: -34%;
+        bottom: 0;
+        right: 0;
+        height: 1px;
+        color: #fff;
+        background: #fff!important;
+        transition: all 0.5s ease;
+        transform: scale(0);
+        display: none;
+    }
+    .navbar .nav-item .nav-link.active:hover,
+    .navbar .nav-item .nav-link:hover {
+        color: #4169E1!important;
+    }
+    .price-section .pricing-tables [class*=col-] {
+        padding: 0 10px;
+    }
+    .price-section .price-item .features ul {
+        margin-bottom: 0;
+        text-align: left;
+    }
+    iframe {
+        width: 350px;
+        height: 350px;
+    }
+    .mmt-20 {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar .nav-item .nav-link.active:hover,
+    .navbar .nav-item .nav-link:hover {
+        color: #4169E1!important;
+    }
+    .about-content {
+        margin-top: 40px!important;
+    }
+    .testimonial-wrap {
+        padding-left: 0;
+        padding-top: 75px;
+    }
+    .client-img-area {
+        left: 50%;
+        margin-left: -75px;
+        top: 75px;
+    }
+    .clint-replay {
+        padding: 80px 25px 25px;
+    }
+    .clint-replay h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .clint-replay p {
+        font-size: 16px;
+    }
+    iframe {
+        width: 520px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .navbar .nav-item .nav-link.active:hover,
+    .navbar .nav-item .nav-link:hover {
+        color: #4169E1!important;
+    }
+    .banner-content h1 {
+        font-size: 30px;
+    }
+    .profile-img::before {
+        position: absolute;
+        content: '';
+        top: 0px;
+        right: 0px;
+        border: 10px solid #517dbe;
+        height: 100%;
+        width: 100%;
+    }
+    iframe {
+        width: 545px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar .nav-item .nav-link.active:hover,
+    .navbar .nav-item .nav-link:hover {
+        color: #4169E1!important;
+    }
+    iframe {
+        width: 450px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .navbar .nav-item .nav-link.active:hover,
+    .navbar .nav-item .nav-link:hover {
+        color: #4169E1!important;
+    }
+    iframe {
+        width: 390px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .navbar .nav-item .nav-link.active:hover,
+    .navbar .nav-item .nav-link:hover {
+        color: #4169E1!important;
+    }
+    .banner-content h1 {
+        font-size: 28px;
+    }
+    iframe {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .navbar .nav-item .nav-link.active:hover,
+    .navbar .nav-item .nav-link:hover {
+        color: #4169E1!important;
+    }
+    .banner-content h1 {
+        font-size: 25px;
+    }
+    iframe {
+        width: 300px;
+        height: 350px;
+    }
+}
+
+@media screen and (min-height: 1440px) and (min-width: 1080px) {
+    .navbar .nav-item .nav-link {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-height: 533px) {}
